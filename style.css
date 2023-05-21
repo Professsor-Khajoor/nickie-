@@ -1,0 +1,182 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto' sans-serif;
+  margin: auto;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+}
+section {
+  padding: 75px 0px 0px 0px;
+}
+.fixed-width {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/*
+#main-container{
+    max-width:1140px;
+    margin:0 auto;
+}
+*/
+#home {
+  padding: 10px 0 0 0;
+}
+.button {
+  background-color: orange;
+  padding: 11px 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+}
+p {
+  color: #999999;
+  letter-spacing: 0.5px;
+  line-height: 1.80857;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  margin: 0px 0px 30px 0px;
+}
+.featured-heading {
+  font-size: 38px;
+  font-weight: 500px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.button:hover {
+  background-color: #009bb7;
+  color: white;
+}
+.col-1 {
+  width: 10%;
+  display: inline-block;
+  float: left;
+}
+.col-2 {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  padding: 3px 0 0 0;
+}
+.col-3 {
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+.col-4 {
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+.col-5 {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+.col-6 {
+  width: 60%;
+  display: inline-block;
+  float: left;
+}
+.col-7 {
+  width: 70%;
+  display: inline-block;
+  float: left;
+}
+.col-8 {
+  width: 80%;
+  display: inline-block;
+  float: left;
+}
+.col-9 {
+  width: 90%;
+  display: inline-block;
+  float: left;
+}
+.col-10 {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+nav {
+  float: left;
+  width: 100%;
+}
+#top {
+  padding: 0px;
+  height: 78px;
+}
+.menu-box {
+  padding: 17px 0px;
+  float: left;
+  width: 100%;
+}
+.menu-box .menu-list {
+  padding: 0px;
+}
+.menu-box .menu-list .list-items {
+  display: inline-block;
+}
+.menu-box .menu-list .list-items .menu {
+  padding: 10px 15px;
+  color: black;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.menu-box .menu-list .list-items .menu:hover {
+  background-color: orange;
+  color: white;
+}
+/*
+#home{
+   background: url('assets/pexels-lalesh-aldarwish-194511.jpg');
+}
+*/
+/* css of about section*/
+#about .social h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #292929;
+  padding: 4px 0 0 0;
+}
+#about .social-box {
+  width: 100%;
+  float: left;
+}
+#about .download-cv {
+  float: left;
+  margin-top: 31px;
+}
+#about .social-list {
+  margin: 0%;
+  padding: 0 0 0 20px;
+}
+#about .social-list li {
+  display: inline-block;
+  background: #009bb7;
+  font-size: 24px;
+  width: 62px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 0px;
+}
+#about img {
+  width: 100%;
+}
